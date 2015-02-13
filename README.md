@@ -42,12 +42,15 @@ Instruction
 Okay. All you need is g++ and aircrack-ng.
 
 Download from my repo ( wget )
+
 $    wget https://raw.githubusercontent.com/alepcat1710/netKiller/master/netKiller.c
 
 compile
+
 $    g++ netKiller.c -o netKiller
 
 run !
+
 $    ./netKiller 300 routerMAC clientMAC
 
 
