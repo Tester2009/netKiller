@@ -51,9 +51,9 @@ $    g++ netKiller.c -o netKiller
 
 run !
 
-$    ./netKiller 300 routerMAC clientMAC
+$    sudo airmon-ng start wlan0; ./netKiller 300 routerMAC clientMAC
 
 
 Example
 -------
-$    ./netKiller 300 AB:CD:EF:GH:IJ:KL MN:OP:QR:ST:UV:WX
+$    sudo airmon-ng start wlan0; ./netKiller 300 AB:CD:EF:GH:IJ:KL MN:OP:QR:ST:UV:WX
